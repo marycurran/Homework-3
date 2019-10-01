@@ -11,3 +11,20 @@ const org1_depts=[
     children: [],
     }
 ]
+
+const org2_depts = [
+    {
+        name: 'accounting',
+        children: [
+            {name: 'accounting payable', children: []},
+            {
+                name: 'accounting recievable',
+            children: [{ name: 'cash',children: []}, {name: 'check', children[] }],
+        },
+        ],
+    },
+    {
+        name: 'finance',
+        children: [{name: 'investment', children: []}],
+    },
+]
