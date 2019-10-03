@@ -1,0 +1,28 @@
+.flex-container{
+    border: 3px;
+    border-color: green;
+    border-style: solid;
+    display:flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    display: inline-flex;
+    width: 400px;
+    height: 175px;
+    align-self:flex-start;
+    align-self:flex-end;
+
+
+    
+
+    
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+
+}
